@@ -8,7 +8,6 @@ function valid() {
 
 form.addEventListener('submit', (myform) => {
   if (form.email.value !== form.email.value.toLowerCase()) {
-    myform.preventDefault();
     valid();
   }
 });
