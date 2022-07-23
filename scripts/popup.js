@@ -1,7 +1,6 @@
 const popUpObject = document.querySelector('.pop-up');
 const workCard = document.querySelector('.work-card-container');
 const button1 = document.getElementById('button1');
-const overlay = document.getElementById('overlay');
 
 const projects = [
   {
